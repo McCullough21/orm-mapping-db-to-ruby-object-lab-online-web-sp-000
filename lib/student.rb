@@ -92,7 +92,7 @@ def self.first_X_students_in_grade_10(x)
 
     # count += 1
     end
-  end
+  # end
 end
 
 end
