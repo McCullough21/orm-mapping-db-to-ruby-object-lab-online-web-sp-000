@@ -88,7 +88,7 @@ def self.first_X_students_in_grade_10(x)
   # count = 1
   # until count = x do
   DB[:conn].execute(sql, x).map do |row|
-    x.times do self.new_from_db(row)
+    x.timesdo self.new_from_db(row)
     
     # count += 1
     end
